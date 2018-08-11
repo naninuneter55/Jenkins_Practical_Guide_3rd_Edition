@@ -5,7 +5,8 @@ import java.io.Serializable;
 /**
  * DTO class for SampleServlet.
  */
-public class SampleDTO {
+public SampleDTO implements Serializable {
+
     /**
      * First name of the user.
      */
